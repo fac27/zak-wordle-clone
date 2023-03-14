@@ -1,7 +1,6 @@
 import { words } from './words.js';
 
-// const randomWord = words[Math.floor(Math.random() * words.length)];
-const randomWord = 'avail';
+const randomWord = words[Math.floor(Math.random() * words.length)];
 
 // record key enteries
 const containerDivs = document.querySelectorAll('div');
